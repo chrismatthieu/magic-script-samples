@@ -18,7 +18,7 @@ async function basicFetch(app, prism, text) {
 
   const { UiImage } = ui;
 
-  let image = UiImage.Create(prism, full_name, 0.4, 0.3);
+  let image = UiImage.Create(prism, full_name, 0.4, 0.3, true);
   prism.getRootNode().addChild(image);
 }
 
